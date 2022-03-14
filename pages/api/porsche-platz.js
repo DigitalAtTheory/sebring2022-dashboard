@@ -8,7 +8,7 @@ export default async function handler(req, res) {
   let privacyOptin;
   let offerOptin;
 
-  const colRef = collection(db, "sebring-corvette-corral-2022");
+  const colRef = collection(db, "sebring-porsche-platz-2022");
 
   if (info.PrivacyPolicy.length > 0) {
     privacyOptin = true;
@@ -89,7 +89,7 @@ export default async function handler(req, res) {
         answer: data.QuestionTwelve,
       },
       {
-        label: "Do you track your Corvette?",
+        label: "Do you track your Porsche?",
         answer: data.QuestionThirteen,
       },
     ],
